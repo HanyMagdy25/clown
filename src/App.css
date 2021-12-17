@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  
+}
+.currency{
+  /* background-color: burlywood; */
+  height: 15vh;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.currency-inner{
+  
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+
+button{
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 10px;
+  font-size: 20px;
+    background: #ff553e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+  
+    background: #06a700;
+    
+}
+.memes{
+  width: 80%;
+  height: 50vh;
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .pics{
+  width: 20%;
+  height: 20%;
+  background-color: crimson;
+} */
+.pic{
+  width: 900px;
+  height: 900px;
+  /* background-color: crimson; */
+
+}
+.pics img{
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width:960px) {
+  .currency-inner{
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .pic{
+    width: 500px;
+    height: 500px;
+    /* background-color: crimson; */
+  
+  }
+}
